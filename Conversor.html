@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Conversor de Criptomonedas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #1e1e1e;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      margin-top: 80px;
+    }
+
+    .form-label {
+      color: #ffc107;
+    }
+
+    #conversion-result {
+      margin-top: 20px;
+      font-size: 1.2rem;
+    }
+
+    .btn-warning {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2 class="text-center mb-4 text-warning">Conversor de Moneda a Criptomoneda</h2>
+    
+    <form id="converter-form" class="bg-dark p-4 rounded">
+      <div class="mb-3">
+        <label for="amount" class="form-label">Cantidad</label>
+        <input type="number" id="amount" class="form-control" placeholder="Ej: 1000" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="from-currency" class="form-label">Desde</label>
+        <select id="from-currency" class="form-select">
+          <option value="usd">Dólar (USD)</option>
+          <option value="hnl">Lempira (HNL)</option>
+          <option value="eur">Euro (EUR)</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label for="to-crypto" class="form-label">A Criptomoneda</label>
+        <select id="to-crypto" class="form-select">
+          <option value="bitcoin">Bitcoin (BTC)</option>
+          <option value="ethereum">Ethereum (ETH)</option>
+          <option value="dogecoin">Dogecoin (DOGE)</option>
+          <option value="solana">Solana (SOL)</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn btn-warning w-100">Convertir</button>
+    </form>
+
+    <div id="conversion-result" class="text-center text-info"></div>
+  </div>
+
+  <script>
+    const fiatToUsd = {
+      usd: 1,
+      hnl: 0.041, // Aproximado
+      eur: 1.09   // Aproximado
+    };
+
+    document.getElementById('converter-form').addEventListener('submit', async function(e) {
+      e.preventDefault();
+
+      const amount = parseFloat(document.getElementById('amount').value);
+      const from = document.getElementById('from-currency').value;
+      const crypto = document.getElementById('to-crypto').value;
+      const resultDiv = document.getElementById('conversion-result');
+
+      if (isNaN(amount) || amount <= 0) {
+        resultDiv.textContent = 'Por favor, introduce una cantidad válida.';
+        return;
+      }
+
+      const usdAmount = amount * fiatToUsd[from];
+
+      try {
+        const res = await fetch(`https://api.coingecko.com/api/v3/simple/price?ids=${crypto}&vs_currencies=usd`);
+        const data = await res.json();
+
+        const cryptoPrice = data[crypto].usd;
+        const converted = usdAmount / cryptoPrice;
+
+        resultDiv.innerHTML = `
+          <p><strong>${amount} ${from.toUpperCase()}</strong> equivalen a 
+          <strong>${converted.toFixed(6)} ${crypto.toUpperCase()}</strong></p>
+        `;
+      } catch (err) {
+        resultDiv.textContent = 'Error al conectar con la API.';
+        console.error(err);
+      }
+    });
+  </script>
+
+</body>
+</html>
