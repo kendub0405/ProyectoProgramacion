@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog Final - BITINTELIGENTE</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"> <!-- Tu hoja de estilos externa -->
+</head>
+<body>
+
+  <header>
+    <div class="logo-container">
+      <img src="Imagenes/logo.png" alt="Logo BITINTELIGENTE">
+      <h1><strong>BITINTELIGENTE</strong></h1>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="Index.html"><b>Inicio</b></a></li>
+        <li><a href="que_es.html"><b>Sobre las Criptomonedas</b></a></li>
+        <li><a href="#"><b>Mercados</b></a>
+          <ul>
+            <li><a href="resumen.html">Resumen</a></li>
+            <li><a href="tranding.html">Datos Trading</a></li>
+          </ul>
+        </li>
+        <li><a href="conversor.html"><b>Conversor</b></a></li>
+        <li><a href="#"><b>Datos</b></a>
+          <ul>
+            <li><a href="tranding.html">Datos Trading</a></li>
+            <li><a href="cotizacion.html">Cotización</a></li>
+            <li><a href="mapa_calor.html">Mapa de Calor</a></li>
+          </ul>
+        </li>
+        <li><a href="#"><b>Blockchain</b></a>
+          <ul>
+            <li><a href="Blockchain.html">BlockChain</a></li>
+            <li><a href="wallet.html">Wallet</a></li>
+            <li><a href="regulaciones.html">Regulaciones</a></li>
+          </ul>
+        </li>
+        <li><a href="blog.html"><b>Blog</b></a></li>
+      </ul>
+    </nav>
+  </header>
+
+<section class="blog-general-section container">
+  <h2>Blog de BITINTELIGENTE</h2>
+  
+  <p class="blog-intro">
+    En un mundo donde la innovación financiera avanza a pasos agigantados, <strong>BITINTELIGENTE</strong> nace como una plataforma educativa y dinámica para todos aquellos que desean entender y aprovechar el poder de las criptomonedas.
+    <br><br>
+    Desde conceptos básicos como <em>¿qué es una blockchain?</em> hasta temas más especializados como el análisis de datos de mercado, conversión de divisas o tendencias en trading, nuestro sitio ha sido diseñado para brindar información clara, confiable y útil, tanto para principiantes como para entusiastas experimentados.
+    <br><br>
+    En nuestro recorrido, exploramos el corazón de monedas como <strong>Bitcoin</strong>, <strong>Ethereum</strong>, <strong>Dogecoin</strong> y <strong>Solana</strong>, desglosando sus tecnologías, usos reales, y el impacto que están teniendo en el sistema financiero global. Además, ofrecemos herramientas prácticas como conversores actualizados, acceso a mapas de calor del mercado y una sección de noticias y regulaciones para mantenerte siempre informado.
+    <br><br>
+    También analizamos temas clave como la seguridad en las transacciones, el almacenamiento en billeteras digitales (wallets), y las diferencias entre monedas estables (stablecoins) y tokens volátiles. Buscamos que comprendas no solo el "qué", sino también el "por qué" y el "cómo" del ecosistema cripto.
+    <br><br>
+    En el blog de <strong>BITINTELIGENTE</strong> encontrarás entrevistas con expertos del sector, reportajes sobre avances tecnológicos en blockchain, casos de uso reales, y guías paso a paso para aprender a invertir o utilizar criptomonedas en tu vida diaria.
+    <br><br>
+    Además, mantenemos un enfoque crítico y reflexivo sobre los desafíos del mundo cripto: la regulación gubernamental, los riesgos de inversión, el impacto ambiental del minado, y el uso ético de estas tecnologías. Queremos que tu aprendizaje sea completo, realista y orientado a decisiones responsables.
+    <br><br>
+    <strong>BITINTELIGENTE</strong> es más que un sitio: es un puente entre el conocimiento y la acción. Nos enfocamos en educar para empoderar, con una experiencia web moderna, accesible y visualmente atractiva.
+  </p>
+
+  <p class="blog-extra">
+    <strong>¡Aprende, invierte y evoluciona con nosotros en el apasionante universo cripto!</strong>
+    <br><br>
+    Visita nuestro blog para descubrir artículos nuevos cada semana, descubrir oportunidades de inversión, entender cómo funcionan las tecnologías emergentes, y convertirte en parte del futuro financiero global.
+  </p>
+
+  <div class="text-center">
+    <a href="que_es.html" class="btn btn-warning btn-lg">Aprende mas sobre Criptomonedas →</a>
+  </div>
+</section>
+
+  <footer>
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>Sobre Nosotros</h3>
+                    <p>Somos especialistas en soluciones blockchain, ayudando a negocios y usuarios a adoptar criptomonedas con seguridad y sencillez.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="ion-social-facebook"></i></a>
+                        <a href="#"><i class="ion-social-twitter"></i></a>
+                        <a href="#"><i class="ion-social-linkedin"></i></a>
+                        <a href="#"><i class="ion-social-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Accesos Directos</h3>
+                    <ul>
+                        <li><a href="#">Sobre las Criptomonedas</a></li>
+                        <li><a href="#">Mercado</a></li>
+                        <li><a href="#">Datos</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Soporte</h3>
+                    <ul>
+                        <li><a href="#">Wallet</a></li>
+                        <li><a href="#">Datos Tranding</a></li>
+                        <li><a href="#">Regulaciones</a></li>
+                        <li><a href="#">Mapa de Calor</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <section>
+                        <div class="newsletter-container">
+                            <h2 style="font-size: 18px; color: white; margin-bottom: 15px; font-weight: bold;">Suscríbete a Nuestro Newsletter</h2>
+                            <div class="input-container">
+                                <input type="email" placeholder="Ingresa tu email" class="email-input" required>
+                                <button style="background-color: #FFB823; color: white; border: none; padding: 8px 15px; border-radius: 0 5px 5px 0; font-size: 14px; cursor: pointer;">Subscribe</button>
+                            </div>
+                            <p class="newsletter-disclaimer">Al suscribirte, aceptas nuestra Política de Privacidad y das tu consentimiento para recibir actualizaciones.</p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2025 Tu Empresa. Todos los derechos reservados.</p>
+                <p>Diseñado por: <a href="usap.edu" target="_blank">Universidad de San Pedro Sula</a></p>
+            </div>
+        </footer>
+
+</body>
+</html>
