@@ -626,3 +626,38 @@ p.text-center {
   padding-bottom: 3rem;
 }
 
+.blog-general-section {
+  background-color: #2b2b2b;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(255, 193, 7, 0.1);
+}
+
+.blog-intro {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.blog-general-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.blog-general-section .btn-warning {
+  font-size: 1.1rem;
+  padding: 12px 25px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.blog-general-section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 60px auto 40px auto; /* ← este margen arriba separa la tarjeta del header */
+  background-color: #2b2b2b;
+  border-radius: 15px;
+  color: #fff;
+}
+
