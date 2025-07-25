@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sobre las Criptomonedas - BITINTELIGENTE</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+ <header>
+            <div class="logo-container">
+                <img src="Imagenes/logo.png">
+                <h1><strong>BITINTELIGENTE</strong></h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="Index.html"><b>Inicio</b></a></li>
+                    <li><a href="que_es.html"><b>Sobre las Criptomonedas</b></a></li>
+                    <li><a href=""><b>Mercados</b></a>
+                        <ul>
+                            <li><a href="resumen.html">Resumen</a></li>
+                            <li><a href="tranding.html">Datos Trading</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="conversor.html"><b>Conversor</b></a></li>
+                    <li><a href=""><b>Datos</b></a>
+                        <ul>
+                            <li><a href="tranding.html">Datos Trading</a></li>
+                            <li><a href="cotizacion.html">Cotización</a></li>
+                            <li><a href="mapa_calor.html">Mapa de Calor</a></li>
+                        </ul>
+                    </li>
+                    <li><a href=""><b>Blockchain</b></a>
+                        <ul>
+                            <li><a href="Blockchain.html">BlockChain</a></li>
+                            <li><a href="wallet.html">Wallet</a></li>
+                            <li><a href="regulaciones.html">Regulaciones</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="blog.html"><b>Blog</b></a></li>
+                </ul>
+            </nav>
+        </header>
+
+<main class="container py-5">
+  <h1 class="text-warning text-center mb-4">Que son las Criptomonedas?</h1>
+  <p class="text-center text-light mb-3">
+    En la última década, las criptomonedas han revolucionado el mundo financiero. Se trata de monedas digitales que utilizan la criptografía para garantizar transacciones seguras, descentralizadas y sin la intervención de bancos u otras entidades centrales. A diferencia del dinero tradicional, las criptomonedas funcionan sobre una tecnología conocida como blockchain o cadena de bloques, que actúa como un libro contable distribuido e inalterable.
+
+Su atractivo radica en la libertad financiera que ofrecen, la posibilidad de invertir de forma global, y el potencial tecnológico que representan para diversas industrias, desde las finanzas hasta los videojuegos, el arte digital y más.
+
+Ahora te invitamos a descubrir algunas de las criptomonedas más destacadas del momento, sus características, evolución y por qué están dando tanto de qué hablar.
+  </p>
+
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <!-- Tarjeta 1: Bitcoin -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="Bitcoin.webp" class="card-img-top" alt="Bitcoin">
+        <div class="card-body">
+          <h5 class="card-title">Bitcoin: el oro digital del siglo XXI</h5>
+          <p class="card-text">Bitcoin es la criptomoneda más reconocida y usada...</p>
+          <button class="btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#btcInfo">aprende más →</button>
+          <div class="collapse mt-3" id="btcInfo">
+            <p class="text-light">Bitcoin es la primera criptomoneda del mundo y la más reconocida hasta la fecha. Fue creada en 2009 por una persona o grupo bajo el seudónimo de Satoshi Nakamoto. Su propuesta fue revolucionaria: un sistema de dinero digital descentralizado que no dependiera de gobiernos ni bancos centrales. Bitcoin utiliza una tecnología llamada blockchain, una especie de libro contable digital distribuido que registra todas las transacciones de manera segura y transparente.
+
+                Uno de los aspectos más destacados de Bitcoin es su oferta limitada: solo existirán 21 millones de bitcoins, lo cual lo convierte en un activo deflacionario. A lo largo de los años, Bitcoin ha pasado de ser un experimento tecnológico a convertirse en una reserva de valor para millones de personas. Algunos lo comparan con el oro, pero en versión digital. Grandes empresas e instituciones financieras han comenzado a adoptarlo, y países como El Salvador incluso lo han legalizado como moneda de curso legal.
+
+                Bitcoin ha sido objeto de numerosos debates, tanto por su consumo energético como por su volatilidad. Sin embargo, también ha demostrado ser una herramienta poderosa para enviar dinero a través de fronteras de manera rápida y económica, especialmente en países con sistemas bancarios limitados o inflación descontrolada.
+</p>
+            <div class="ratio ratio-16x9">
+              <iframe src="https://www.youtube.com/embed/bBC-nXj3Ng4" title="Bitcoin explicación" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tarjeta 2: Ethereum -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="ethereum.jpg" class="card-img-top" alt="Ethereum">
+        <div class="card-body">
+          <h5 class="card-title">Ethereum: más que una criptomoneda</h5>
+          <p class="card-text">Ethereum permite contratos inteligentes y apps descentralizadas...</p>
+          <button class="btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#ethInfo">aprende más →</button>
+          <div class="collapse mt-3" id="ethInfo">
+            <p class="text-light">Ethereum fue creado en 2015 por un grupo liderado por Vitalik Buterin. A diferencia de Bitcoin, que se centra en ser una moneda digital, Ethereum es una plataforma para construir aplicaciones descentralizadas (dApps). Su principal innovación son los contratos inteligentes, que permiten ejecutar código de manera automática cuando se cumplen ciertas condiciones, sin necesidad de intermediarios.
+
+                Esto ha abierto las puertas a industrias completamente nuevas dentro del mundo cripto, como las Finanzas Descentralizadas (DeFi), donde los usuarios pueden prestar, pedir prestado o intercambiar activos sin depender de bancos, y los NFT (tokens no fungibles), que permiten representar propiedad digital sobre obras de arte, música, videojuegos y más.
+
+                Ethereum también ha sido pionero en la transición hacia una red más sostenible. En septiembre de 2022, completó "The Merge", cambiando su mecanismo de consenso de prueba de trabajo (PoW) a prueba de participación (PoS), reduciendo su consumo energético en más de un 99%.
+
+                A pesar de los problemas de escalabilidad y de las altas tarifas de transacción en momentos de alta demanda, Ethereum sigue siendo la blockchain más utilizada y con mayor número de desarrolladores.
+</p>
+            <div class="ratio ratio-16x9">
+              <iframe src="https://www.youtube.com/embed/jxLkbJozKbY" title="Ethereum explicación" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="col">
+  <div class="card h-100">
+    <img src="dogecoin.jpeg" class="card-img-top" alt="Dogecoin">
+    <div class="card-body">
+      <h5 class="card-title">Dogecoin: del meme al fenómeno financiero global</h5>
+      <p class="card-text">Lo que comenzó como una broma en internet hoy mueve millones: Dogecoin, la criptomoneda que desafió todas las expectativas.</p>
+      
+      <button class="btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#dogeInfo" aria-expanded="false" aria-controls="dogeInfo">
+        aprende más →
+      </button>
+      <div class="collapse mt-3" id="dogeInfo">
+        <p class="text-light">
+          Dogecoin comenzó en 2013 como una broma basada en el meme de un perro Shiba Inu. Sus creadores, Billy Markus y Jackson Palmer, nunca imaginaron que esta moneda digital terminaría convirtiéndose en una de las criptomonedas más populares del mundo.
+
+          Durante años, Dogecoin fue considerada una "moneda de propinas en internet" gracias a su comunidad activa y simpática. Sin embargo, todo cambió en 2021, cuando figuras como Elon Musk comenzaron a promocionarla en redes sociales. Esto disparó su valor y atrajo la atención mundial.
+
+          Técnicamente, Dogecoin está basada en la tecnología de Litecoin y utiliza un algoritmo de prueba de trabajo. Aunque carece de algunas de las funcionalidades avanzadas de otras criptomonedas, como contratos inteligentes, su rapidez y bajas comisiones la hacen útil para pagos simples.
+
+          Hoy en día, Dogecoin está aceptada en algunas plataformas comerciales, y sus desarrolladores están trabajando en mejorar la tecnología subyacente. Lo que comenzó como una broma ahora es un activo real con un valor de mercado multimillonario.
+        </p>
+        <div class="ratio ratio-16x9 mt-4">
+          <iframe src="https://www.youtube.com/embed/00UlAZ6v-Fs" title="Dogecoin Explicado" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="col">
+    <div class="card h-100">
+      <img src="solana.jpg" class="card-img-top" alt="Solana">
+      <div class="card-body">
+        <h5 class="card-title">Solana: la velocidad y escalabilidad del futuro cripto</h5>
+        <p class="card-text">Solana se ha posicionado como una de las plataformas blockchain más rápidas y escalables...</p>
+        
+        <button class="btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolana" aria-expanded="false" aria-controls="collapseSolana">
+          aprende más →
+        </button>
+
+        <div class="collapse mt-3" id="collapseSolana">
+          <p class="text-light">
+            Solana es una plataforma blockchain de alto rendimiento diseñada para aplicaciones descentralizadas y criptomonedas. Fue lanzada en 2020 y se ha destacado por su velocidad de transacción y bajos costos, convirtiéndose en una alternativa atractiva frente a Ethereum.
+            <br><br>
+            Utiliza un mecanismo único llamado Proof of History (PoH), que permite procesar miles de transacciones por segundo. Gracias a su escalabilidad, Solana ha atraído a desarrolladores de juegos, NFTs y finanzas descentralizadas.
+            <br><br>
+            A pesar de enfrentar desafíos como interrupciones técnicas, Solana sigue evolucionando y recibiendo inversiones importantes. Su visión es clara: democratizar el acceso a la blockchain con una infraestructura rápida y accesible.
+          </p>
+          <div class="ratio ratio-16x9 mt-3">
+            <iframe src="https://www.youtube.com/embed/s5rQh8eZ82Q" title="Solana explicado" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+  <footer>
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>Sobre Nosotros</h3>
+                    <p>Somos especialistas en soluciones blockchain, ayudando a negocios y usuarios a adoptar criptomonedas con seguridad y sencillez.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="ion-social-facebook"></i></a>
+                        <a href="#"><i class="ion-social-twitter"></i></a>
+                        <a href="#"><i class="ion-social-linkedin"></i></a>
+                        <a href="#"><i class="ion-social-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Accesos Directos</h3>
+                    <ul>
+                        <li><a href="#">Sobre las Criptomonedas</a></li>
+                        <li><a href="#">Mercado</a></li>
+                        <li><a href="#">Datos</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Soporte</h3>
+                    <ul>
+                        <li><a href="#">Wallet</a></li>
+                        <li><a href="#">Datos Tranding</a></li>
+                        <li><a href="#">Regulaciones</a></li>
+                        <li><a href="#">Mapa de Calor</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <section>
+                        <div class="newsletter-container">
+                            <h2 style="font-size: 18px; color: white; margin-bottom: 15px; font-weight: bold;">Suscríbete a Nuestro Newsletter</h2>
+                            <div class="input-container">
+                                <input type="email" placeholder="Ingresa tu email" class="email-input" required>
+                                <button style="background-color: #FFB823; color: white; border: none; padding: 8px 15px; border-radius: 0 5px 5px 0; font-size: 14px; cursor: pointer;">Subscribe</button>
+                            </div>
+                            <p class="newsletter-disclaimer">Al suscribirte, aceptas nuestra Política de Privacidad y das tu consentimiento para recibir actualizaciones.</p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2025 Tu Empresa. Todos los derechos reservados.</p>
+                <p>Diseñado por: <a href="usap.edu" target="_blank">Universidad de San Pedro Sula</a></p>
+            </div>
+        </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
